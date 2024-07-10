@@ -355,7 +355,8 @@ if ( ! is_php('5.4'))
  *
  */
 	// Load the base controller class
-	require_once BASEPATH.'core/Controller.php';
+	require_once BASEPATH.'core/CodeIgniter.php';
+
 
 	/**
 	 * Reference to the CI_Controller method.
